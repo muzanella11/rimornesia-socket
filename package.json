@@ -1,0 +1,33 @@
+{
+  "name": "rimornesia-socket",
+  "version": "1.0.0",
+  "description": "rimornesia-socket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js",
+    "enem": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muzanella11/rimornesia-socket.git"
+  },
+  "keywords": [
+    "rimornesia-socket"
+  ],
+  "author": "enem",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^2.4.0",
+    "commander": "^2.15.1",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "http": "0.0.0",
+    "mysql": "^2.15.0",
+    "path": "^0.12.7"
+  },
+  "bugs": {
+    "url": "https://github.com/muzanella11/rimornesia-socket/issues"
+  },
+  "homepage": "https://github.com/muzanella11/rimornesia-socket#readme"
+}
