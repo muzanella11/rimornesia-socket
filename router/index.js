@@ -1,6 +1,7 @@
 const HomeController = require('./../controllers/home')
+const TestController = require('./../controllers/test')
 
-const router = (app, connection) => {
+const router = (app, connection, io) => {
   app.get('/example', (req, res) => {
     // Database and Query Example
     var sql = "CREATE TABLE customers (name VARCHAR(255), address VARCHAR(255))"
@@ -17,7 +18,8 @@ const router = (app, connection) => {
     res.json(dataRes)
   })
 
-  new HomeController(app, connection)
+  new HomeController(app, connection, io)
+  new TestController(app, connection, io)
 }
 
 module.exports = {

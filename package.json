@@ -24,7 +24,8 @@
     "express": "^4.16.3",
     "http": "0.0.0",
     "mysql": "^2.15.0",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "socket.io": "^2.3.0"
   },
   "bugs": {
     "url": "https://github.com/muzanella11/rimornesia-socket/issues"
